@@ -1,4 +1,6 @@
-<p align="center"><a href="#" target="_blank" rel="noopener noreferrer"><img width="550"
+Русский | [English](../../README.md) | [简体中文](../zh-cn/README.zh-CN.md) | [日本語](../ja/README-ja.md) | [Português Brasileiro](../pt-br/README-pt-br.md) | [한국어](../ko/README-ko.md) | [Español (España)](../es-es/README-es-es.md)| [עברית](./docs/he/README-he.md)
+
+<p align="center"><a href="https://day.js.org/ru/" target="_blank" rel="noopener noreferrer"><img width="550"
                                                                              src="https://user-images.githubusercontent.com/17680888/39081119-3057bbe2-456e-11e8-862c-646133ad4b43.png"
                                                                              alt="Day.js"></a></p>
 <p align="center">Быстрая <b>2kB</b> альтернатива Moment.js с тем же современным API</p>
@@ -9,8 +11,8 @@
             alt="Gzip Size"></a>
     <a href="https://www.npmjs.com/package/dayjs"><img src="https://img.shields.io/npm/v/dayjs.svg?style=flat-square&colorB=51C838"
                                                        alt="NPM Version"></a>
-    <a href="https://travis-ci.org/iamkun/dayjs"><img
-            src="https://img.shields.io/travis/iamkun/dayjs/master.svg?style=flat-square" alt="Build Status"></a>
+    <a href="https://github.com/iamkun/dayjs/actions/workflows/check.yml"><img
+            src="https://img.shields.io/github/actions/workflow/status/iamkun/dayjs/check.yml?style=flat-square" alt="Build Status"></a>
     <a href="https://codecov.io/gh/iamkun/dayjs"><img
             src="https://img.shields.io/codecov/c/github/iamkun/dayjs/master.svg?style=flat-square" alt="Codecov"></a>
     <a href="https://github.com/iamkun/dayjs/blob/master/LICENSE"><img
@@ -27,7 +29,7 @@
 dayjs().startOf('month').add(1, 'day').set('year', 2018).format('YYYY-MM-DD HH:mm:ss');
 ```
 
-* 🕒 Хорошо знакомые API и паттерны Moment.js 
+* 🕒 Хорошо знакомые API и паттерны Moment.js
 * 💪 Неизменная
 * 🔥 Цепная
 * 🌐 Поддержка интернационализации (I18n)
@@ -76,7 +78,7 @@ Day.js обладает великолепной поддержкой интер
 ```javascript
 import 'dayjs/locale/es' // загрузка по требованию
 
-dayjs.locale('es') // глобальное использование Испанской локали 
+dayjs.locale('es') // глобальное использование Испанской локали
 
 dayjs('2018-05-05').locale('zh-cn').format() // использование упрощённой Китайской локали в конкретном случае
 ```
@@ -95,6 +97,12 @@ dayjs().format('Q Do k kk X x') // больше доступных формат�
 ```
 
 📚[Список плагинов](https://day.js.org/docs/ru/plugin/plugin)
+
+### Тенденция использования
+
+<a href="https://npm-compare.com/moment,dayjs/#timeRange=THREE_YEARS" target="_blank">
+  <img src="https://user-images.githubusercontent.com/3455798/270162667-c7bd2ebe-675e-45c6-a2c9-dc67f3b65d6e.png">
+</a>
 
 ## Спонсоры
 
